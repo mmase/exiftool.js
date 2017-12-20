@@ -273,7 +273,7 @@
             },
             "FUJIFILM" : {
                 MakerNoteTags : {
-                    0x0010 : "InternalSerialNumber"
+                    0x0010 : "InternalSerialNumber",
                 },
                 MakerNoteByteAlign : 0x4949, // always use intel byte align
                 HeaderSize : {
@@ -287,7 +287,8 @@
             "NIKON CORPORATION" : {
                 MakerNoteTags : {
                     0x001d : "SerialNumber",
-                    0x00a0 : "SerialNumber"
+                    0x00a0 : "SerialNumber",
+                    0x0084 : "LensModel"
                 },
                 HeaderSize : {
                     "Nikon" : 18
