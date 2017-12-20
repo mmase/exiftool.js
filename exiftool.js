@@ -1327,7 +1327,7 @@
             // $.each(tags, function(key, value) {
             for ( var key in tags) {
                 var data = tags[key];
-                tidyData[key] = data.value ? data : tidyString(tags[key]);
+                tidyData[key] = data && data.value ? data : tidyString(data);
             }
             return tidyData;
         }
