@@ -1,0 +1,57 @@
+{
+  "_from": "exiftool.js@^0.3.0",
+  "_id": "exiftool.js@0.3.0",
+  "_inBundle": false,
+  "_integrity": "sha1-6CwSVgaiBPW0firHE8f2SouMnRs=",
+  "_location": "/exiftool.js",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "exiftool.js@^0.3.0",
+    "name": "exiftool.js",
+    "escapedName": "exiftool.js",
+    "rawSpec": "^0.3.0",
+    "saveSpec": null,
+    "fetchSpec": "^0.3.0"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/exiftool.js/-/exiftool.js-0.3.0.tgz",
+  "_shasum": "e82c125606a204f5b47e2ac713c7f64a8b8c9d1b",
+  "_spec": "exiftool.js@^0.3.0",
+  "_where": "/Users/mike/Code/exif",
+  "author": {
+    "name": "Matt Burns",
+    "email": "matt@mattburns.co.uk",
+    "url": "http://www.mattburns.co.uk/"
+  },
+  "bugs": {
+    "url": "https://github.com/mattburns/exiftool.js/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A pure javascript implementation of Phil Harvey's excellent exiftool. This extends work started by Jacob Seidelin and aims to support parsing of all the tags that exiftool is capable of.",
+  "devDependencies": {
+    "exiftool.js-dev-dependencies": "0.3.0"
+  },
+  "homepage": "https://github.com/mattburns/exiftool.js",
+  "keywords": [
+    "exiftool",
+    "jpeg",
+    "metadata"
+  ],
+  "license": "MPL",
+  "main": "exiftool.js",
+  "name": "exiftool.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattburns/exiftool.js.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "version": "0.3.0"
+}
